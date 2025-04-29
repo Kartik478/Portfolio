@@ -345,6 +345,23 @@ function initLoadingAnimation() {
             section.classList.add('visible');
         }, 300 * index);
     });
+    
+    // Force show projects section after a delay to ensure animation works
+    setTimeout(() => {
+        const projectsSection = document.getElementById('projects');
+        if (projectsSection) {
+            projectsSection.classList.add('show-animate');
+            
+            // Make sure project cards are visible
+            const projectCards = projectsSection.querySelectorAll('.project-card');
+            projectCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 100 * (index + 1));
+            });
+        }
+    }, 1500);
 }
 
 // Add CSS for new animations
