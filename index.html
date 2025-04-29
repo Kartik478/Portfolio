@@ -5,16 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
-
+    <title>Kartikkumar Parekh - Portfolio</title>
+    <meta name="description" content="Personal portfolio of Kartikkumar Parekh, Software and Web Developer.">
     <link rel="stylesheet" href="style.css">
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body oncontextmenu="return false;">
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+    </div>
 
+    <!-- decoration elements -->
+    <div class="decoration-elem elem1"></div>
+    <div class="decoration-elem elem2"></div>
+    <div class="decoration-elem elem3"></div>
+    <div class="decoration-elem elem4"></div>
+    
     <!-- header design -->
     <header class="header">
         <a href="#" class="logo">Parekh.<span class="animate" style="--i:1;"></span></a>
@@ -25,6 +43,7 @@
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
 
@@ -69,18 +88,18 @@
         <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
 
         <div class="about-img">
-            <img src="about.jpg" alt="">
+            <img src="about.jpg" alt="Kartikkumar Parekh">
             <span class="circle-spin"></span>
             <span class="animate scroll" style="--i:2;"></span>
         </div>
 
-        <div class="about-content"> 
+        <div class="about-content animate-content"> 
             <h3>Software Engineer and Data Analyst!<span class="animate scroll" style="--i:3;"></span></h3>
-            <p>I am a full-time Honours Computer Science student at Brock University, minoring in Mathematics, with a passion for enhancing software development workflows, DevOps, and IT infrastructure. My experience includes co-op roles at Ontario Power Generation and the Ontario Ministry of Transportation, where I developed dynamic dashboards, automated solutions, and user-centric programs, showcasing my technical and problem-solving skills. As a Google Developer Student Club Lead, I demonstrated leadership by fostering an inclusive tech community and organizing workshops on cutting-edge technologies. My recent research work focuses on optimizing 5G vehicular networks using Graph Neural Networks, reflecting my interest in data science and cloud platforms. I am proactive, dedicated, and eager to contribute to all aspects of the System Development Life Cycle, leveraging my diverse technical and collaborative experience.
+            <p class="animate-text">I am a full-time Honours Computer Science student at Brock University, minoring in Mathematics, with a passion for enhancing software development workflows, DevOps, and IT infrastructure. My experience includes co-op roles at Ontario Power Generation and the Ontario Ministry of Transportation, where I developed dynamic dashboards, automated solutions, and user-centric programs, showcasing my technical and problem-solving skills. As a Google Developer Student Club Lead, I demonstrated leadership by fostering an inclusive tech community and organizing workshops on cutting-edge technologies. My recent research work focuses on optimizing 5G vehicular networks using Graph Neural Networks, reflecting my interest in data science and cloud platforms. I am proactive, dedicated, and eager to contribute to all aspects of the System Development Life Cycle, leveraging my diverse technical and collaborative experience.
             </p>
-            <div class="read-more">
+            <div class="read-more animate-text">
                 <p>
-                    As a fourth-year Computer Science student at Brock University, I’ve gained a strong foundation in computer science through courses like Introduction to Algorithms, Advanced Algorithms, Operating Systems, Theory of Computation, Software Engineering, Introduction to Big Data and Data Structures. My co-op terms at Ontario Power Generation have honed my communication and presentation skills, and highlighted the importance of organizational efficiency. I’ve developed user-friendly programs and applications, and have proficiency in Microsoft Office tools. My collaborative spirit was evident as I contributed to various projects, innovating for improved work efficiency. My voluntary work and studies at Cyber Security India have equipped me with a wealth of programming and security skills. I’ve learned the value of task division and the use of checklists for efficient task completion. My understanding of theoretical features of potential actions has often led to my selection for task assignment within my team. I’ve also honed my ability to adapt communication based on the audience. As the president of the Google Developers Student Club at Brock University, I led a diverse team in organizing workshops and coding competitions, honing my leadership skills and deepening my practical understanding of software development. I am proactive, dedicated, and have a love for improving software development workflows and processes. I look forward to contributing to and learning from highly skilled teams
+                    As a fourth-year Computer Science student at Brock University, I've gained a strong foundation in computer science through courses like Introduction to Algorithms, Advanced Algorithms, Operating Systems, Theory of Computation, Software Engineering, Introduction to Big Data and Data Structures. My co-op terms at Ontario Power Generation have honed my communication and presentation skills, and highlighted the importance of organizational efficiency. I've developed user-friendly programs and applications, and have proficiency in Microsoft Office tools. My collaborative spirit was evident as I contributed to various projects, innovating for improved work efficiency. My voluntary work and studies at Cyber Security India have equipped me with a wealth of programming and security skills. I've learned the value of task division and the use of checklists for efficient task completion. My understanding of theoretical features of potential actions has often led to my selection for task assignment within my team. I've also honed my ability to adapt communication based on the audience. As the president of the Google Developers Student Club at Brock University, I led a diverse team in organizing workshops and coding competitions, honing my leadership skills and deepening my practical understanding of software development. I am proactive, dedicated, and have a love for improving software development workflows and processes. I look forward to contributing to and learning from highly skilled teams
                 </p>
             </div>
 
@@ -103,7 +122,7 @@
                 <div class="education-box">
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - 2025</div>
                             <h3>Hons. Bachelor of Computer Science (Co-op) - Brock University</h3>
                             <p><b>Minoring in Mathematics</b></p>
                             <p>• Introduction to Computer Architecture</p>
@@ -126,7 +145,7 @@
 
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
                             <h3> Grade 12 - Anandalaya Education Society</h3>
                             <p>Physics-94%, Chemistry-94%, Mathematics-80%, Hindi-96%</p>
                         </div>
@@ -140,6 +159,28 @@
                 <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
 
                 <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> Sept. 2024 - Present</div>
+                            <h3>Undergraduate Research Assistant - Brock University, St. Catharines, ON</h3>
+                            <p>• Developing embedded software solutions for simulated 5G vehicular networks using C++ and simulation frameworks</p>
+                            <p>• Implementing complex algorithms in C++ to optimize network performance and reduce failure rates by 20%</p>
+                            <p>• Collaborating with cross-functional teams to design and test software solutions for embedded systems</p>
+                            <p>• Analyzing system performance metrics and documenting results for stakeholder presentations</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> May 2024 - Aug. 2024</div>
+                            <h3>Junior System Administrator Co-op - Ontario Ministry of Transportation, St. Catharines, ON</h3>
+                            <p>• Developed cross-platform monitoring solutions for Windows and Linux environments, ensuring 99.9% system uptime</p>
+                            <p>• Created automated scripts to streamline data collection and visualization across multiple operating systems</p>
+                            <p>• Implemented technical solutions to enhance system performance and user experience for over 200 end-users</p>
+                            <p>• Collaborated with IT teams to troubleshoot complex software issues and document solutions for future reference</p>
+                        </div>
+                    </div>
+
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> 2022 - Present </div>
@@ -192,6 +233,135 @@
 
                     <span class="animate scroll" style="--i:6;"></span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section design -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
+        
+        <a href="https://github.com/Kartik478" class="projects-github-corner" target="_blank"><i class='bx bxl-github'></i></a>
+        
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project1.jpg" alt="Event Management Website">
+                </div>
+                <div class="project-content">
+                    <h3>Event Management Website</h3>
+                    <p>Sept. 2024 – Apr. 2025</p>
+                    <p>Developed a responsive web application for event management using React and TypeScript with Firebase backend for real-time data storage and user authentication.</p>
+                    <div class="project-tech">
+                        <span>TypeScript</span>
+                        <span>React</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented Firebase backend for real-time data storage and user authentication</li>
+                            <li>Integrated Google Maps API for location services and OpenAI API for automated event poster generation</li>
+                            <li>Created a modular architecture with reusable components following React best practices</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class='bx bx-link-external'></i> View Demo</a>
+                        <a href="https://github.com/Kartik478" class="btn small-btn"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:2;"></span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project2.jpg" alt="Cross-Platform Development Tools">
+                </div>
+                <div class="project-content">
+                    <h3>Cross-Platform Development Tools</h3>
+                    <p>Feb. 2024 – Present</p>
+                    <p>Designed and developed a suite of cross-platform developer tools that function across Windows, Linux, and macOS.</p>
+                    <div class="project-tech">
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>Linux</span>
+                        <span>Windows</span>
+                        <span>macOS</span>
+                    </div>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented C++ core libraries for handling system-specific operations while maintaining a consistent API</li>
+                            <li>Utilized Git for version control and collaborative development with distributed team members</li>
+                            <li>Created comprehensive documentation to ensure usability across different operating systems</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class='bx bx-link-external'></i> View Demo</a>
+                        <a href="https://github.com/Kartik478" class="btn small-btn"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project3.jpg" alt="Automated Booking System">
+                </div>
+                <div class="project-content">
+                    <h3>Automated Booking System Web Application</h3>
+                    <p>Jan. 2023 – Aug. 2023</p>
+                    <p>Developed front-end interfaces for a booking system used by 200+ employees, increasing efficiency by 30%.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>REST APIs</span>
+                    </div>
+                    <div class="project-details">
+                        <ul>
+                            <li>Created administrator controls and dashboards with role-based access control</li>
+                            <li>Implemented client-side form validation and error handling for improved user experience</li>
+                            <li>Used agile methodologies throughout the development process with CI/CD pipeline integration</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class='bx bx-link-external'></i> View Demo</a>
+                        <a href="https://github.com/Kartik478" class="btn small-btn"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:4;"></span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="project4.jpg" alt="Library Management System">
+                </div>
+                <div class="project-content">
+                    <h3>Library Management System</h3>
+                    <p>Dec. 2022 – March 2023</p>
+                    <p>Designed a multi-tier application architecture with clear separation of data access and business logic.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Swing</span>
+                        <span>JDBC</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-details">
+                        <ul>
+                            <li>Implemented comprehensive unit testing and integration testing to ensure application reliability</li>
+                            <li>Created a scalable database architecture capable of handling thousands of simultaneous SQL queries</li>
+                            <li>Utilized Git for version control and collaborative development among team members</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn small-btn"><i class='bx bx-link-external'></i> View Demo</a>
+                        <a href="https://github.com/Kartik478" class="btn small-btn"><i class='bx bxl-github'></i> GitHub</a>
+                    </div>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
             </div>
         </div>
     </section>
@@ -357,7 +527,7 @@
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2024 by Kartik Parekh | All Rights Reserved.</p>
+            <p>Copyright &copy; <span id="current-year">2024</span> by Kartik Parekh | All Rights Reserved.</p>
 
             <span class="animate scroll" style="--i:1;"></span>
         </div>
@@ -369,8 +539,15 @@
         </div>
     </footer>
 
+    <!-- custom cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
 
     <script src="script.js"></script>
+    <script>
+        // Update year automatically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
