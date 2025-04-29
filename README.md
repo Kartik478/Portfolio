@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 ## 🔗 Live Demo
 
-Visit the website at [kartikparekh.com](https://kartikparekh.com) (Replace with your custom domain once set up)
+Visit the website at [kartik-parekh.tech](https://kartik-parekh.tech/)
 
 ![Portfolio Screenshot](screenshot.png)
 
@@ -132,6 +132,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 
 For any questions or feedback, feel free to reach out:
-- Email: [Your Email]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
+- Email: [kp20zm@brocku.ca]
+- LinkedIn: [https://www.linkedin.com/in/kartikkumar-parekh/]
+- GitHub: [https://github.com/Kartik478]
