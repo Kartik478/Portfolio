@@ -1676,3 +1676,28 @@ section {
     animation: showProjects 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
+/* 1) Pick your two purples: */
+:root {
+    --demo-purple-light: #9b5de5;
+    --demo-purple-dark:  #7c3aed;
+  }
+  
+  /* 2) Target only the “View Demo” buttons */
+  .projects .project-card .project-links a.btn.small-btn:first-child {
+    /* swap the background gradient */
+    background: linear-gradient(45deg, var(--demo-purple-light), var(--demo-purple-dark)) !important;
+    /* swap the border */
+    border-color: var(--demo-purple-light) !important;
+    /* keep text/background contrast */
+    color: var(--bg-color) !important;
+  }
+  
+  /* 3) Make sure the icon matches */
+  .projects .project-card .project-links a.btn.small-btn:first-child i {
+    color: inherit !important;
+  }
+  
+  /* 4) Keep the same hover “reverse fill” effect */
+  .projects .project-card .project-links a.btn.small-btn:first-child:hover::before {
+    background: linear-gradient(45deg, var(--demo-purple-light), var(--demo-purple-dark)) !important;
+  }  
